@@ -1,0 +1,96 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+body{
+    display: flex;
+    min-height: 100vh;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    background-color: rgb(162, 169, 186);
+}
+.container{
+    position: relative;
+    max-width: 600px;
+    width: 100%;
+    background: #e3a2a2;
+    padding: 25px;
+    border-radius: 8px;
+    box-shadow: 0 0 15px rgb(162, 169, 186);
+
+}
+.container header{
+    font-size: 2.5rem;
+    font-weight: 500;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+    color: blueviolet;
+    padding: 5%;
+}
+
+.form-container{
+       margin-top: 30px;
+}
+.form .input-box{
+    width: 100%;
+    margin-top: 20px;
+}
+.form .input-box input{
+    font-size: 1rem;
+    position: relative;
+    height: 20px;
+    width: 30%;
+    /* color: red; */
+    border: 1px solid #ddd;
+    border-radius: 9px;
+    padding: 11px 10px;
+
+}
+.form .user-detail{
+    display: flex;
+    column-gap: 15px;
+    flex-wrap: wrap;
+
+}
+.form :where(.gender-option, .gender){
+    display: flex;
+    align-items: center;
+    column-gap: 50px;
+}
+.button {
+    height: 114px;
+    width: 95%;
+    color: aliceblue;
+    font-size: 2rem;
+    border: none;
+    margin-top: 18px;
+    cursor: pointer;
+    border-radius: 15px;
+    font-weight: 800;
+    background-color: blue;
+    text-align: center;
+    transition: all 0.2s ease;
+}
+.form .button{
+    height: 55px;
+}
+.button .input{
+    height: 55px;
+    border: none;
+    color: #ddd;
+    white-space: pre;
+    padding-block: 1px;
+    padding-inline: 6px;
+    border-width: 2px;
+    border-style: outset;
+    border-color: buttonborder;
+    border-image: initial;
+}
+}
+
+.button:hover {
+    background-color: #45a049;
+}
